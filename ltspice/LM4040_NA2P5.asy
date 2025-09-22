@@ -1,0 +1,16 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 33 65 -32 -65
+WINDOW 0 67 -39 Bottom 2
+WINDOW 3 130 -44 Top 2
+WINDOW 39 79 -20 Top 2
+SYMATTR Prefix X
+SYMATTR Value LM4040_NA2P5
+SYMATTR ModelFile D:\Users\seth\Documents\Git\cc-led-driver\ltspice\LM4040_NA2P5_TRANS.lib
+SYMATTR SpiceLine TOL=0
+PIN 0 -64 VRIGHT 8
+PINATTR PinName V+
+PINATTR SpiceOrder 1
+PIN 0 64 VLEFT 8
+PINATTR PinName V-
+PINATTR SpiceOrder 2

@@ -404,6 +404,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D11"
+				(at 0.9526 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "BAT54-7-F"
+				(at -1.5874 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 6.604 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAT54_A_C_S.pdf"
+				(at 6.604 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode 30 V 200mA Surface Mount SOT-23-3"
+				(at 6.604 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAT54-7-F/717699"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -935,6 +1096,217 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:BAV99"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1895,6 +2267,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:PUMX1"
 			(pin_names
 				(offset 0)
@@ -2653,8 +3230,8 @@
 		)
 	)
 	(rectangle
-		(start 16.51 162.56)
-		(end 82.55 199.39)
+		(start 64.77 228.6)
+		(end 102.87 284.48)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2662,11 +3239,102 @@
 		(fill
 			(type none)
 		)
-		(uuid 29cdb503-350e-423d-8911-053c567b4bee)
+		(uuid 07ee066f-9406-40f2-81e0-9567415e722d)
+	)
+	(rectangle
+		(start 16.51 91.44)
+		(end 88.9 147.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9456c249-8147-4851-8e1b-30d06246103c)
+	)
+	(rectangle
+		(start 100.33 91.44)
+		(end 170.18 166.37)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0c6e443-bcf2-4481-92d0-a35c7de0404e)
+	)
+	(rectangle
+		(start 114.3 229.87)
+		(end 208.28 285.75)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fbb12b2e-8f36-4e86-bb3c-9716b6b3934c)
+	)
+	(text "G ≈ 100 (40dB)\nF_{-3dB} ≈ 16Hz \nΦ_{M} ≈ 64°"
+		(exclude_from_sim no)
+		(at 152.908 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "428b8a3c-8740-4c8e-b0b4-1d7ab7a79e91")
+	)
+	(text "1.23V"
+		(exclude_from_sim no)
+		(at 107.696 27.94 0)
+		(effects
+			(font
+				(size 0.63 0.63)
+			)
+		)
+		(uuid "5a4f4584-8182-4749-9f80-2e6e7718ab26")
+	)
+	(text "BRIGHTNESS CONTROL"
+		(exclude_from_sim no)
+		(at 37.338 89.408 0)
+		(effects
+			(font
+				(size 2.56 2.56)
+				(thickness 0.512)
+				(bold yes)
+			)
+		)
+		(uuid "6c54e95c-389a-4e02-b8db-e2a939440dc5")
+	)
+	(text "CC SERVO"
+		(exclude_from_sim no)
+		(at 109.474 89.408 0)
+		(effects
+			(font
+				(size 2.56 2.56)
+				(thickness 0.512)
+				(bold yes)
+			)
+		)
+		(uuid "76335bc9-c36d-4d46-8f36-18915da45ba2")
+	)
+	(text "[2V, 19V]"
+		(exclude_from_sim no)
+		(at 186.436 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82542f8a-3f69-404f-8af6-47c35ace579e")
 	)
 	(text "ON / OFF"
 		(exclude_from_sim no)
-		(at 25.654 160.274 0)
+		(at 123.444 227.33 0)
 		(effects
 			(font
 				(size 2.56 2.56)
@@ -2676,9 +3344,32 @@
 		)
 		(uuid "9287a257-d93d-4492-89e3-839d89982d6b")
 	)
+	(text "T_{ON} = 2μs\nT_{OFF} = 160ms\n"
+		(exclude_from_sim no)
+		(at 191.77 260.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ce9e03d-ae06-40b0-8c2e-caa3213b735f")
+	)
+	(text "VREF"
+		(exclude_from_sim no)
+		(at 69.342 226.314 0)
+		(effects
+			(font
+				(size 2.56 2.56)
+				(thickness 0.512)
+				(bold yes)
+			)
+		)
+		(uuid "db243d94-88ce-4026-8b80-1319d7651327")
+	)
 	(text "F_{C} = 160kHz\nτ = 1μs"
 		(exclude_from_sim no)
-		(at 48.768 191.77 0)
+		(at 146.558 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2689,7 +3380,7 @@
 	)
 	(text "~1V"
 		(exclude_from_sim no)
-		(at 81.026 46.228 0)
+		(at 136.906 32.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2697,33 +3388,295 @@
 		)
 		(uuid "face4b40-d8e4-49e6-825b-5b989875e5bb")
 	)
+	(text "F_{SW} = 400kHz "
+		(exclude_from_sim no)
+		(at 131.318 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcd32e1f-d89f-4dd7-9e00-6163522dbdc8")
+	)
+	(text "7.1u / ea @ 13V"
+		(exclude_from_sim no)
+		(at 221.234 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd7bc18c-873d-44cc-b57a-fed544b3fd4c")
+	)
 	(junction
-		(at 44.45 180.34)
+		(at 31.75 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "026634c0-897e-4b8d-b558-aa369dddc13c")
+	)
+	(junction
+		(at 215.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "035172b5-c48d-4ac0-8f14-c901c10c9a40")
+	)
+	(junction
+		(at 53.34 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11a6d705-ec2d-4253-b686-3e66f978f748")
+	)
+	(junction
+		(at 234.95 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "141966db-6b1d-458a-a265-585f6120beda")
+	)
+	(junction
+		(at 215.9 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "189c3a54-b2cb-4805-a38b-9ca6775e718e")
+	)
+	(junction
+		(at 209.55 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aee2f0f-302e-40b6-a44f-4a96bad100f9")
+	)
+	(junction
+		(at 142.24 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ee5eb7e-9840-4538-a0b0-a6619e8ca116")
 	)
 	(junction
-		(at 92.71 41.91)
+		(at 234.95 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "211f2c57-2293-430e-807d-5f404acef4e6")
+	)
+	(junction
+		(at 148.59 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21625a7f-21ad-4775-a13f-bc7edb1bdcba")
 	)
 	(junction
-		(at 29.21 180.34)
+		(at 179.07 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "241d057c-e407-41f1-91bc-263d158e7dbe")
+	)
+	(junction
+		(at 69.85 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2907d9d6-e2ff-4bd6-8556-278bfefaa4ef")
+	)
+	(junction
+		(at 299.72 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b17c886-96e5-4868-861e-eed84cdedbff")
+	)
+	(junction
+		(at 38.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dce6306-1217-4791-b3b2-bc2592ff0655")
+	)
+	(junction
+		(at 222.25 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e10eb4a-d326-4f83-9d80-7e125b78f2c4")
+	)
+	(junction
+		(at 165.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d0a2a4-f221-406a-a623-45eff69d550e")
+	)
+	(junction
+		(at 124.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4515f6a2-7a73-45de-8b50-e0b07c0ad594")
+	)
+	(junction
+		(at 173.99 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5126af32-f787-46de-902b-73bb7aa60b5b")
+	)
+	(junction
+		(at 127 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "624f5936-3b3e-47ce-9cfc-3fc17e0ada29")
 	)
 	(junction
-		(at 31.75 92.71)
+		(at 173.99 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68b90a26-1d8b-454f-9bb3-88bcfc36464f")
+	)
+	(junction
+		(at 228.6 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dbf3e4f-02ac-4ad8-83d2-1fa7cb1fd5a3")
+	)
+	(junction
+		(at 78.74 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cee378b-484e-49c6-9e07-7071e3aad187")
 	)
+	(junction
+		(at 227.33 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f5c5b23-3220-4b58-a823-0200f72b60ff")
+	)
+	(junction
+		(at 189.23 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83cf6d1b-2e7e-44a4-b6bb-be582dc33eeb")
+	)
+	(junction
+		(at 222.25 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927f501d-c93f-4734-a846-a6d42fb22619")
+	)
+	(junction
+		(at 215.9 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9648d5fd-21c3-478b-99bc-f6845b941dae")
+	)
+	(junction
+		(at 227.33 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9abab747-0383-4e5b-9104-4c4b3c536d44")
+	)
+	(junction
+		(at 215.9 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0087e62-892e-44bb-8b73-59b399515273")
+	)
+	(junction
+		(at 137.16 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a089829f-a9c7-492e-a867-f411632cbe4d")
+	)
+	(junction
+		(at 124.46 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a36f08db-89b5-422f-ab58-99b5cec5a0e0")
+	)
+	(junction
+		(at 222.25 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3dd1f23-d5a3-46b8-9e79-137668c47742")
+	)
+	(junction
+		(at 31.75 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeaf5705-11e5-40e9-b647-af81848a57db")
+	)
+	(junction
+		(at 222.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b420077d-c0fd-4bcd-bc78-e7d025575b2d")
+	)
+	(junction
+		(at 228.6 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6b0e05d-7faf-424e-8e11-0c8a8fe370c9")
+	)
+	(junction
+		(at 165.1 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb0a6456-530a-40ad-996d-80432ab19974")
+	)
+	(junction
+		(at 157.48 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bca549e9-3804-41fe-88c3-487c965b6c84")
+	)
+	(junction
+		(at 228.6 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4cd0b7e-5be7-46fd-aebe-186322c76be4")
+	)
+	(junction
+		(at 209.55 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68721ea-8f35-489a-9467-5b44d7d9aaf1")
+	)
+	(junction
+		(at 228.6 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88e26d3-03d5-40fa-b4c0-27302243eafc")
+	)
+	(junction
+		(at 144.78 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf8a35f-9c42-42d6-94b1-02a51228c9e7")
+	)
+	(junction
+		(at 204.47 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5e30be1-04be-4ae2-a5cd-06ec99ee8802")
+	)
+	(junction
+		(at 179.07 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df1f87e4-e47e-4e88-ba05-aac92f9d2ce7")
+	)
+	(junction
+		(at 234.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1ef999e-41d8-4140-ac19-1312e36e15f6")
+	)
 	(no_connect
-		(at 81.28 49.53)
+		(at 137.16 35.56)
 		(uuid "4759d154-d553-46cb-ada7-8800f303c911")
+	)
+	(no_connect
+		(at 167.64 256.54)
+		(uuid "5d53d978-5378-4b7c-b0c7-db091230191e")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023e8d29-31d9-4bf4-a6f0-22415e44ded8")
 	)
 	(wire
 		(pts
@@ -2737,7 +3690,97 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 39.37) (xy 80.01 39.37)
+			(xy 227.33 101.6) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0426f267-7796-4c23-9659-0834193d7d51")
+	)
+	(wire
+		(pts
+			(xy 173.99 245.11) (xy 200.66 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0457d845-0b2e-4e87-b9d5-1a06f2afbb00")
+	)
+	(wire
+		(pts
+			(xy 69.85 132.08) (xy 69.85 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0559f10f-8538-481c-9225-006f27dabad3")
+	)
+	(wire
+		(pts
+			(xy 209.55 72.39) (xy 209.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064b494f-2330-4667-be36-e4c89b01a62b")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.26) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088d3fe4-cd6f-48ee-b8ea-561f81e58ea9")
+	)
+	(wire
+		(pts
+			(xy 179.07 39.37) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a916b3-80b2-4c68-a0ee-0239828b4ee9")
+	)
+	(wire
+		(pts
+			(xy 234.95 82.55) (xy 234.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0901d46b-9522-4d3f-9397-d8ce590b3a6f")
+	)
+	(wire
+		(pts
+			(xy 228.6 72.39) (xy 228.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a20c1ab-1896-425c-9b0d-6c8257d185ad")
+	)
+	(wire
+		(pts
+			(xy 157.48 119.38) (xy 171.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3b3f02-1814-434c-94d3-ad18073d2a19")
+	)
+	(wire
+		(pts
+			(xy 132.08 25.4) (xy 135.89 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +3790,77 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 180.34) (xy 29.21 181.61)
+			(xy 228.6 81.28) (xy 228.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1132fe71-c0b8-46da-89bb-3f6e3bbfc984")
+	)
+	(wire
+		(pts
+			(xy 102.87 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cd007e-50d3-46df-aef4-2d003d520236")
+	)
+	(wire
+		(pts
+			(xy 69.85 123.19) (xy 69.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129e2960-29ba-4ae5-bb4c-9793ab884545")
+	)
+	(wire
+		(pts
+			(xy 299.72 25.4) (xy 299.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133e6ae5-6f61-486d-ad2e-f742627f4c79")
+	)
+	(wire
+		(pts
+			(xy 210.82 116.84) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1374a0c8-42c7-41ba-8e63-a0c82147b586")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 31.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c745bf-7c1f-429f-8145-01bcc00ebf79")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e859db-eec5-4f22-bf81-cb55dd377b67")
+	)
+	(wire
+		(pts
+			(xy 127 247.65) (xy 127 248.92)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +3870,57 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 46.99 92.71)
+			(xy 121.92 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192cb577-93c7-4478-b0ab-627f6d946959")
+	)
+	(wire
+		(pts
+			(xy 53.34 123.19) (xy 53.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c10b9b7-01ba-4961-8e9b-85e6ae9ae401")
+	)
+	(wire
+		(pts
+			(xy 167.64 256.54) (xy 168.91 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c32f452-4c05-42cf-ac32-fc8b31997492")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2875564a-9fe4-42c1-9bf9-5f26c452f2b3")
+	)
+	(wire
+		(pts
+			(xy 189.23 265.43) (xy 189.23 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295cf833-4c5a-4c5d-9637-cdb727c84459")
+	)
+	(wire
+		(pts
+			(xy 78.74 257.81) (xy 93.98 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2767,7 +3930,27 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 38.1) (xy 92.71 41.91)
+			(xy 53.34 132.08) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bae4f72-1bb7-49da-a455-d4fe9117e483")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 222.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c74f97f-046a-4daa-9ba4-dcb7472041cf")
+	)
+	(wire
+		(pts
+			(xy 148.59 24.13) (xy 148.59 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +3960,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 91.44) (xy 31.75 92.71)
+			(xy 179.07 59.69) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2caf2d-dbf6-49b9-8965-8b84cae09a66")
+	)
+	(wire
+		(pts
+			(xy 78.74 256.54) (xy 78.74 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +3990,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 189.23) (xy 29.21 190.5)
+			(xy 132.08 127) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1cbee9-581b-47dd-a253-ba1aa7844ce7")
+	)
+	(wire
+		(pts
+			(xy 127 256.54) (xy 127 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +4010,157 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 180.34) (xy 44.45 180.34)
+			(xy 165.1 39.37) (xy 148.59 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cb012c-e36c-4e7d-9e7e-cdf92403685b")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3280a988-97ab-415c-8481-8320122122c5")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337876f5-08a0-44cd-9e4c-b64380a8af15")
+	)
+	(wire
+		(pts
+			(xy 289.56 16.51) (xy 299.72 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a9fff0-2d8a-45d4-8391-ca98edfcb1bb")
+	)
+	(wire
+		(pts
+			(xy 227.33 127) (xy 227.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356911b9-3955-4f8f-bcef-5f9edc57d06d")
+	)
+	(wire
+		(pts
+			(xy 173.99 264.16) (xy 173.99 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3579755f-d575-46eb-b6cc-13959637c581")
+	)
+	(wire
+		(pts
+			(xy 222.25 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399ba380-efb6-480b-b939-1d5e722bfb1d")
+	)
+	(wire
+		(pts
+			(xy 179.07 50.8) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39aed590-b59b-48f5-a095-feecf1094a9f")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d7201b-539e-4a21-8f09-8c25aaddba4d")
+	)
+	(wire
+		(pts
+			(xy 31.75 127) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a401147-6ee0-460f-a70a-fe93d2e6658c")
+	)
+	(wire
+		(pts
+			(xy 189.23 265.43) (xy 200.66 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4aa3ea-f783-415b-b878-3b2daf92dee5")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac62abc-7b24-4998-b6b0-883aaf3d0ef8")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 250.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b84fd85-087f-400e-ab6f-e6ed6b3a669e")
+	)
+	(wire
+		(pts
+			(xy 222.25 81.28) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d95313c-a802-4827-bd04-715cd7d43557")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 179.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e009ecb-eeb9-4b5d-a811-f3ffb866d639")
+	)
+	(wire
+		(pts
+			(xy 127 247.65) (xy 142.24 247.65)
 		)
 		(stroke
 			(width 0)
@@ -2817,13 +4170,153 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 49.53 60.96)
+			(xy 171.45 245.11) (xy 173.99 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb5d590-a363-4a98-965f-b4bb85213136")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 234.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4052897f-b99f-44e3-b637-e58c0bb6b874")
+	)
+	(wire
+		(pts
+			(xy 124.46 143.51) (xy 124.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f0bedc-d941-4aed-8d64-c3352baa6dc1")
+	)
+	(wire
+		(pts
+			(xy 31.75 127) (xy 31.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b3c34a-fbb3-4d2b-88d1-bcea8b49db9e")
+	)
+	(wire
+		(pts
+			(xy 105.41 45.72) (xy 105.41 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47c9b8b5-58cb-4ec8-a1e3-45c2fd429bff")
+	)
+	(wire
+		(pts
+			(xy 31.75 110.49) (xy 31.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc27395-2035-49a6-986c-0c3dfffaf57e")
+	)
+	(wire
+		(pts
+			(xy 38.1 125.73) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c48f3a-fd16-48d6-aa39-e097fe1029aa")
+	)
+	(wire
+		(pts
+			(xy 234.95 72.39) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522e9792-96e2-4f3e-88c1-ac2e266f4ba7")
+	)
+	(wire
+		(pts
+			(xy 210.82 114.3) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d917e0-3387-4636-8dc9-0c3aa566f139")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57398e66-dec8-4189-8818-9c36973ae2c8")
+	)
+	(wire
+		(pts
+			(xy 173.99 245.11) (xy 173.99 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e0a447-1196-4e26-b8e1-26d2bb7e857d")
+	)
+	(wire
+		(pts
+			(xy 31.75 100.33) (xy 31.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59815e57-688a-4853-8af0-d8412cb21931")
+	)
+	(wire
+		(pts
+			(xy 31.75 135.89) (xy 31.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59caf524-b3e7-474d-81d8-d66d8679b68d")
+	)
+	(wire
+		(pts
+			(xy 173.99 274.32) (xy 173.99 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de2a4d7-2d40-487d-967c-53d02d8a566d")
+	)
+	(wire
+		(pts
+			(xy 53.34 123.19) (xy 69.85 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e365c5a-e25d-401b-9138-d6f4d05da8ef")
 	)
 	(wire
 		(pts
@@ -2837,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 31.75 102.87)
+			(xy 78.74 266.7) (xy 78.74 267.97)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 31.75 83.82)
+			(xy 78.74 247.65) (xy 78.74 248.92)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +4350,87 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 179.07) (xy 29.21 180.34)
+			(xy 222.25 55.88) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6449650f-a659-4ba5-8ef0-9d5c8e6d0f89")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 234.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661a166c-e7d9-41ef-9296-c51689e82a22")
+	)
+	(wire
+		(pts
+			(xy 157.48 119.38) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669a9af1-7436-4277-ad6d-48d1c04cb628")
+	)
+	(wire
+		(pts
+			(xy 38.1 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e49047-4394-446f-a22f-7d19b3ad9b1c")
+	)
+	(wire
+		(pts
+			(xy 299.72 15.24) (xy 299.72 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691eb0df-5c7d-481e-a5ac-36c86d72473e")
+	)
+	(wire
+		(pts
+			(xy 124.46 143.51) (xy 130.81 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f9b60d-ef9c-449c-a896-4c36d3fc2aec")
+	)
+	(wire
+		(pts
+			(xy 173.99 265.43) (xy 173.99 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb32d22-ca93-460a-9584-cadd7a4aae46")
+	)
+	(wire
+		(pts
+			(xy 165.1 39.37) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7040c58f-e773-43a8-8b2c-d6eeb6b02041")
+	)
+	(wire
+		(pts
+			(xy 127 246.38) (xy 127 247.65)
 		)
 		(stroke
 			(width 0)
@@ -2867,13 +4440,43 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 177.8) (xy 78.74 177.8)
+			(xy 227.33 114.3) (xy 227.33 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73feedaa-22a1-4a2b-b31e-715f1bcde3a5")
+		(uuid "7164d065-8282-4623-bce4-057f73e9e5c3")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731bd6da-e90a-41e4-b617-c87bd2bcd55e")
+	)
+	(wire
+		(pts
+			(xy 234.95 82.55) (xy 234.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d5bfe5-3e32-4d10-a7f2-1f74c7e53470")
+	)
+	(wire
+		(pts
+			(xy 165.1 38.1) (xy 165.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752cc7a8-7eae-4443-94f7-069d34dc31a4")
 	)
 	(wire
 		(pts
@@ -2887,6 +4490,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 27.94) (xy 227.33 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3aca27-772a-4ead-b448-a62da8922e1b")
+	)
+	(wire
+		(pts
+			(xy 95.25 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827d289d-9b84-4827-b874-4743c36292cd")
+	)
+	(wire
+		(pts
 			(xy -45.72 96.52) (xy -45.72 95.25)
 		)
 		(stroke
@@ -2894,6 +4517,86 @@
 			(type default)
 		)
 		(uuid "838b60c5-14bd-4a8a-81cd-8169607d6cb2")
+	)
+	(wire
+		(pts
+			(xy 38.1 118.11) (xy 38.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839521af-c52a-46ea-84bf-077f986abc2a")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85da2231-3c22-473d-b70e-f9359b4e032f")
+	)
+	(wire
+		(pts
+			(xy 199.39 55.88) (xy 204.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8660d9b2-aeed-4d0e-97f9-d648016a7080")
+	)
+	(wire
+		(pts
+			(xy 124.46 154.94) (xy 132.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb83e7a-4e1c-4dc9-8bb1-fd581244a831")
+	)
+	(wire
+		(pts
+			(xy 189.23 274.32) (xy 189.23 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e312130-8038-4d8a-ac77-d88bd10ab32f")
+	)
+	(wire
+		(pts
+			(xy 299.72 16.51) (xy 299.72 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9429343c-77e5-4cdc-9b1a-7bc43f4ecc28")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 222.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959ed63f-29df-4177-a3c7-2ea30d17d663")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961af047-ea70-42db-a0d6-416b977c837b")
 	)
 	(wire
 		(pts
@@ -2907,7 +4610,67 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 180.34) (xy 44.45 181.61)
+			(xy 209.55 64.77) (xy 209.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bd7d9f-581b-4b88-a589-ae5a2b682d18")
+	)
+	(wire
+		(pts
+			(xy 173.99 265.43) (xy 189.23 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adf8dd0-6cd7-4e93-9cd6-e7057c947ad3")
+	)
+	(wire
+		(pts
+			(xy 53.34 110.49) (xy 53.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df2ef43-b5b2-4168-ab96-ad30e83ae652")
+	)
+	(wire
+		(pts
+			(xy 209.55 55.88) (xy 215.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f3e3a4-b6b4-4dd3-b788-8bc3bb71681c")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 227.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a200a0d5-7f80-4e30-8261-4465b1326177")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23aec2a-b749-4170-b6b3-e609749e4982")
+	)
+	(wire
+		(pts
+			(xy 142.24 247.65) (xy 142.24 248.92)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +4680,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 92.71 38.1)
+			(xy 215.9 64.77) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5412777-cd88-44e5-951d-7f1706e51174")
+	)
+	(wire
+		(pts
+			(xy 146.05 24.13) (xy 148.59 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2927,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 175.26) (xy 58.42 175.26)
+			(xy 143.51 242.57) (xy 156.21 242.57)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +4710,57 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 31.75 93.98)
+			(xy 137.16 100.33) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ac89a1-91b0-4178-9270-846b2a0c1021")
+	)
+	(wire
+		(pts
+			(xy 38.1 116.84) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d3d65f-c27e-4213-bcae-be36c6106f3d")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 53.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7fc40d-a591-4d9e-b2f9-4781681f6f54")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab97f78c-8e50-4cfe-a904-9d6bcfd91029")
+	)
+	(wire
+		(pts
+			(xy 228.6 66.04) (xy 234.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc3f9aa-cb4c-42f7-b7f8-04b647295363")
+	)
+	(wire
+		(pts
+			(xy 78.74 257.81) (xy 78.74 259.08)
 		)
 		(stroke
 			(width 0)
@@ -2947,7 +4770,47 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 99.06 41.91)
+			(xy 228.6 72.39) (xy 222.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2a815f-e725-40b5-a9ac-cf7eb18f8012")
+	)
+	(wire
+		(pts
+			(xy 21.59 100.33) (xy 31.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecf6ed5-dcb0-4659-a994-6748d82ae88a")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4bb64e-5c4e-4cbb-9c4a-c1da7456a777")
+	)
+	(wire
+		(pts
+			(xy 209.55 57.15) (xy 209.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b036922a-ff5c-437b-8d11-4e38a7cca47a")
+	)
+	(wire
+		(pts
+			(xy 148.59 27.94) (xy 154.94 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2957,7 +4820,17 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 168.91) (xy 29.21 168.91)
+			(xy 124.46 143.51) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ac920f-10a1-4119-80b2-8295d0196615")
+	)
+	(wire
+		(pts
+			(xy 118.11 236.22) (xy 127 236.22)
 		)
 		(stroke
 			(width 0)
@@ -2967,7 +4840,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 81.28 49.53)
+			(xy 228.6 64.77) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c9a5c5-000c-4f11-8e08-e2c00714c29b")
+	)
+	(wire
+		(pts
+			(xy 157.48 119.38) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7053ece-8298-4a56-998f-f61f91f76baa")
+	)
+	(wire
+		(pts
+			(xy 132.08 35.56) (xy 137.16 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +4870,37 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 52.07) (xy 49.53 49.53)
+			(xy 139.7 154.94) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95a290d-fd1b-4a6d-837e-3b8fa6feee0d")
+	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba31e161-b972-43d2-8c2b-ceb0950c0b0f")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc01b428-7346-4612-b254-b01f528fee90")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 105.41 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +4920,37 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 91.44 46.99)
+			(xy 234.95 66.04) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be72ff26-d027-416d-a926-628515d11c36")
+	)
+	(wire
+		(pts
+			(xy 234.95 64.77) (xy 234.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6cab98-c568-441a-8371-d9acb8942e49")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18bcad0-b85a-4976-a858-1744cf1a922a")
+	)
+	(wire
+		(pts
+			(xy 132.08 33.02) (xy 148.59 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +4960,47 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 118.11 41.91)
+			(xy 137.16 110.49) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54ecf14-cae2-4e65-b1e7-63bec7738622")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c640c14d-7b9b-4c31-a7b0-2bf0e0d2cd41")
+	)
+	(wire
+		(pts
+			(xy 222.25 66.04) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0de917-0058-4529-9f7a-fbf2ee57a460")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07e327d-bd24-452a-9ebb-e45d0bb91a79")
+	)
+	(wire
+		(pts
+			(xy 162.56 27.94) (xy 165.1 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3017,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 38.1) (xy 80.01 39.37)
+			(xy 135.89 24.13) (xy 135.89 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +5020,37 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 80.01 38.1)
+			(xy 31.75 120.65) (xy 31.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3349100-18d2-4458-bfc6-2aa5fef7cd71")
+	)
+	(wire
+		(pts
+			(xy 69.85 123.19) (xy 92.71 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5210d56-539b-4ba2-a99b-af084b4c36c6")
+	)
+	(wire
+		(pts
+			(xy 186.69 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd680fb7-a3d2-47a8-a673-99e40b18bd6b")
+	)
+	(wire
+		(pts
+			(xy 138.43 24.13) (xy 135.89 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +5060,57 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 189.23) (xy 44.45 190.5)
+			(xy 222.25 72.39) (xy 222.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf07d30-57a9-4684-bf53-6cb7ecf574c9")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df246d5a-6b7e-496d-aaae-f2bad45c65d0")
+	)
+	(wire
+		(pts
+			(xy 222.25 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e191541a-41a6-4e02-8ae2-b70eeaa5163b")
+	)
+	(wire
+		(pts
+			(xy 209.55 72.39) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d167d9-4400-41bb-89fc-cd6737617844")
+	)
+	(wire
+		(pts
+			(xy 148.59 39.37) (xy 148.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53d212c-192d-402c-b3e2-e16906ccf455")
+	)
+	(wire
+		(pts
+			(xy 142.24 256.54) (xy 142.24 257.81)
 		)
 		(stroke
 			(width 0)
@@ -3047,7 +5120,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 180.34) (xy 58.42 180.34)
+			(xy 222.25 82.55) (xy 228.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c7b3bf-c75a-4e38-aebb-f2713fc67949")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 212.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7308421-85ef-419c-a002-551320881075")
+	)
+	(wire
+		(pts
+			(xy 142.24 247.65) (xy 156.21 247.65)
 		)
 		(stroke
 			(width 0)
@@ -3057,7 +5150,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 168.91) (xy 29.21 171.45)
+			(xy 179.07 30.48) (xy 179.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e909cac3-2730-405e-9241-b3c4c89562b4")
+	)
+	(wire
+		(pts
+			(xy 127 236.22) (xy 127 238.76)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +5170,67 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 54.61) (xy 66.04 55.88)
+			(xy 234.95 73.66) (xy 234.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f7e63d-226f-441b-97d7-bed3f6fb8388")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 204.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8c4d15-3445-46ae-8e48-fb1959162faa")
+	)
+	(wire
+		(pts
+			(xy 288.29 91.44) (xy 288.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed49b3cb-05be-43cb-8db4-7650e597c2b8")
+	)
+	(wire
+		(pts
+			(xy 132.08 101.6) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc4920f-7901-41fb-8372-f477091c64a3")
+	)
+	(wire
+		(pts
+			(xy 222.25 64.77) (xy 222.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee14a39-2c6d-4201-b587-60b77ca71cf3")
+	)
+	(wire
+		(pts
+			(xy 215.9 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3692e93-95a0-4031-92c4-fa90140189fc")
+	)
+	(wire
+		(pts
+			(xy 121.92 40.64) (xy 121.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +5240,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 55.88 49.53)
+			(xy 105.41 35.56) (xy 111.76 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +5250,57 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 41.91) (xy 92.71 41.91)
+			(xy 204.47 55.88) (xy 209.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ddd3f3-fd01-4a2c-85ba-859045d71c28")
+	)
+	(wire
+		(pts
+			(xy 165.1 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7dca84-2c44-4774-bc99-a5809b1ab2f5")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 104.14 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa93b3c1-cf66-44df-b2f6-de685d5378e0")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 227.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac323c7-2931-4282-94bf-6e5048a8e46a")
+	)
+	(wire
+		(pts
+			(xy 210.82 124.46) (xy 210.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb6dc9e-59f2-4dfe-997f-9aba932c0ac1")
+	)
+	(wire
+		(pts
+			(xy 132.08 27.94) (xy 148.59 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +5309,7 @@
 		(uuid "ff9aac6a-87b7-43c0-a016-b4f2568bdd41")
 	)
 	(label "V_{REF}_2V5"
-		(at 46.99 92.71 180)
+		(at 93.98 257.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +5319,7 @@
 		(uuid "037e8318-2794-400a-99d7-55dc439b327e")
 	)
 	(label "LMR_VCC"
-		(at 50.8 49.53 0)
+		(at 106.68 35.56 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -3115,8 +5328,28 @@
 		)
 		(uuid "09bbdf68-7f5b-4fad-afef-2e0aceb9e719")
 	)
+	(label "V_{CTRL}"
+		(at 160.02 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10912671-b4af-496d-a95d-792a98a31ae1")
+	)
+	(label "V_{OUT}"
+		(at 170.18 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11db52d3-957c-4198-92a9-5b8c9d4caedb")
+	)
 	(label "BST"
-		(at 77.47 39.37 0)
+		(at 133.35 25.4 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -3125,8 +5358,18 @@
 		)
 		(uuid "14a2c9e6-8b6c-4c01-bc53-a078ecd86b2e")
 	)
+	(label "V_{SET}"
+		(at 62.23 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "175a6fb1-bb26-4d9d-b707-9ae826da07b9")
+	)
 	(label "SW"
-		(at 77.47 41.91 0)
+		(at 133.35 27.94 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -3135,8 +5378,28 @@
 		)
 		(uuid "2252c8db-f2a0-4a44-b6ed-d0e84e58acab")
 	)
+	(label "V_{REF}_2V5"
+		(at 21.59 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29cd6fa9-ac14-4e64-98ee-21fbb4899a5a")
+	)
+	(label "V_{CFF}"
+		(at 144.78 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ad2b70a-df60-448d-b1fc-9fd0024e0b5e")
+	)
 	(label "V_{SET}"
-		(at 45.72 175.26 0)
+		(at 143.51 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,7 +5409,7 @@
 		(uuid "2e833f68-088d-4797-b580-f1f7e6d8b947")
 	)
 	(label "FB"
-		(at 77.47 46.99 0)
+		(at 133.35 33.02 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -3156,7 +5419,7 @@
 		(uuid "32e36eb1-4740-45d5-adf5-863fbfc94c37")
 	)
 	(label "V_{REF}_12mV"
-		(at 45.72 180.34 0)
+		(at 143.51 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3165,18 +5428,68 @@
 		)
 		(uuid "3b3d8443-59bc-49b6-be46-307bf57d258c")
 	)
+	(label "V_{SENSE}"
+		(at 106.68 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b29de66-8c87-44ef-8094-e6a539d939e5")
+	)
+	(label "V_{SENSE}"
+		(at 212.09 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fdaa236-1266-4972-9c19-723b46e45d61")
+	)
 	(label "EN"
-		(at 78.74 177.8 180)
+		(at 200.66 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ab58fc93-fca8-4be8-9046-894cd9029763")
+		(uuid "7c9d2b1a-91d8-4935-8b75-6516caef1f1f")
+	)
+	(label "BUCK_EN"
+		(at 102.87 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aa21d47-66d0-445d-b6ee-948af8da0bd8")
+	)
+	(label "V_{OP-}"
+		(at 124.46 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f80142d-8cb5-4f7d-b985-664fc63690f0")
+	)
+	(label "V_{CTRL}"
+		(at 212.09 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acd9bad7-ee67-4bab-b579-accb41b529e7")
 	)
 	(label "V_{REF}_2V5"
-		(at 20.32 168.91 0)
+		(at 118.11 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3185,8 +5498,18 @@
 		)
 		(uuid "c2ba93ef-bc80-40db-9321-35e149704617")
 	)
+	(label "BUCK_EN"
+		(at 200.66 265.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6e8e6a6-84c9-4ae6-b5cf-bb5cffcd2cb3")
+	)
 	(label "PG"
-		(at 77.47 49.53 0)
+		(at 133.35 35.56 0)
 		(effects
 			(font
 				(size 0.63 0.63)
@@ -3195,18 +5518,113 @@
 		)
 		(uuid "d74c6d17-ead2-4629-80ce-19141cce30e6")
 	)
+	(label "V_{SET}"
+		(at 119.38 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdc9362b-cad8-49ca-b766-39bfc7f7b0fb")
+	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 92.71 137.16 0)
+		(lib_id "Device:R_US")
+		(at 165.1 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "0052858f-ac7e-4653-a75a-912293a0ed89")
+		(property "Reference" "R20"
+			(at 166.624 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k (TnF)"
+			(at 166.624 43.9421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.116 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C6802FP500/2607864"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R07"
+			(at 169.164 46.2281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "743db454-9493-49b6-b0d2-411fee42a07d")
+		)
+		(pin "2"
+			(uuid "9014dd5f-8937-4cdc-ac1c-bdfc71ea09d1")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 31.75 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "027bcd28-12eb-47b1-92ed-9659af4d0d9a")
 		(property "Reference" "RV1"
-			(at 90.17 135.8899 0)
+			(at 29.718 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,8 +5632,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_US"
-			(at 90.17 138.4299 0)
+		(property "Value" "100k"
+			(at 29.718 117.8561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,8 +5641,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 137.16 0)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,8 +5650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 137.16 0)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf"
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,8 +5659,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 92.71 137.16 0)
+		(property "Description" "100k Ohm 1 Gang Linear Through Hole, Snap In Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins, Board Locks"
+			(at 31.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4025U-B104/3820579"
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,15 +5697,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 125.73 82.55 0)
+		(at -20.32 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "09b8ed78-054f-4dcf-895b-0fe0ee78b414")
-		(property "Reference" "R4"
-			(at 127.254 80.264 0)
+		(uuid "042a5a53-fb27-46d1-8f99-ff2293892e98")
+		(property "Reference" "R14"
+			(at -18.796 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,8 +5713,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k (TnF)"
-			(at 127.254 82.0421 0)
+		(property "Value" "100k (TnF)"
+			(at -18.796 156.9721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +5723,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 126.746 82.804 90)
+			(at -19.304 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +5732,93 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
-			(at 125.73 82.55 0)
+			(at -20.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at -20.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C1003FP500/2607822"
+			(at -20.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R06"
+			(at -16.256 159.2581 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3a8f165-9f4e-4d27-b1be-fab53e53169b")
+		)
+		(pin "2"
+			(uuid "b5b6e455-9945-4652-a208-492070e41a51")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 118.11 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09b8ed78-054f-4dcf-895b-0fe0ee78b414")
+		(property "Reference" "R4"
+			(at 113.792 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k (TnF)"
+			(at 113.792 125.7301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.364 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 118.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +5827,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 125.73 82.55 0)
+			(at 118.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +5836,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C1002FP500/1850440"
-			(at 125.73 82.55 0)
+			(at 118.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +5845,7 @@
 			)
 		)
 		(property "CPN" "#R02"
-			(at 129.794 84.3281 0)
+			(at 116.332 128.0161 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,8 +5933,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 222.25 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "186f85c9-7279-4cdf-90a1-f9f6ece24afb")
+		(property "Reference" "C13"
+			(at 222.504 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 224.79 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 223.2152 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 227.584 62.9921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6672bda0-84c5-47c6-9fa6-7a3dbe64daf9")
+		)
+		(pin "1"
+			(uuid "c5643b6b-464e-46c3-baae-df8750721368")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19530a27-7346-4c51-8ca3-6209cf341b20")
+		(property "Reference" "#PWR019"
+			(at 234.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a567df-9306-45b8-adfa-7a535214e6af")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
-		(at 29.21 175.26 0)
+		(at 127 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3429,7 +6095,7 @@
 		(dnp no)
 		(uuid "1d7300a6-027c-4209-9589-c759a1c38d60")
 		(property "Reference" "R6"
-			(at 30.734 172.974 0)
+			(at 128.524 240.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +6104,7 @@
 			)
 		)
 		(property "Value" "200k (TnF)"
-			(at 30.734 174.7521 0)
+			(at 128.524 242.0621 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +6113,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 30.226 175.514 90)
+			(at 128.016 242.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +6122,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
-			(at 29.21 175.26 0)
+			(at 127 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +6131,7 @@
 			)
 		)
 		(property "Description" "200 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 29.21 175.26 0)
+			(at 127 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +6140,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C2003FP500/2607837"
-			(at 29.21 175.26 0)
+			(at 127 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +6149,7 @@
 			)
 		)
 		(property "CPN" "#R05"
-			(at 33.274 177.0381 0)
+			(at 131.064 244.3481 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,6 +6166,245 @@
 			(project "cc-led-driver"
 				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 53.34 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "243d1273-e29a-458d-8735-beca8dd705ac")
+		(property "Reference" "R8"
+			(at 54.864 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k (TnF)"
+			(at 54.864 106.1721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 54.356 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C1003FP500/2607822"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R06"
+			(at 57.404 108.4581 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "500f1998-e1fa-4120-829b-2dce6fe92b9f")
+		)
+		(pin "2"
+			(uuid "88a65e6b-45ae-4efb-852b-48405a61625a")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "384c02fd-82a1-438b-b94b-d0726737f3d7")
+		(property "Reference" "#PWR017"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16ac629f-dd53-4ca5-ab1c-554633f1fe1e")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "390c375d-9500-464e-b472-9fe06d43c81e")
+		(property "Reference" "C14"
+			(at 229.108 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 231.14 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 229.5652 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 233.934 62.9921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d91ec846-e201-4bc9-b3f2-f0b870604c4a")
+		)
+		(pin "1"
+			(uuid "c3a05d14-369d-4827-a372-00963307a585")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3578,6 +6483,71 @@
 			(project "cc-led-driver"
 				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e76fad8-4eee-4a30-9604-b33c17df6a6b")
+		(property "Reference" "#PWR011"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "423bc98d-e494-4928-8912-d6792ae063b8")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3676,8 +6646,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fcaee6d-de62-4bc9-9583-ccfabeaafefc")
+		(property "Reference" "#PWR010"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9840b78f-2e98-4bd8-8721-c82482e9c214")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TLV9302xD")
-		(at 66.04 177.8 0)
+		(at 163.83 245.11 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3685,7 +6720,7 @@
 		(dnp no)
 		(uuid "40fc308d-d01e-4b36-a430-3ff8d3abb720")
 		(property "Reference" "U3"
-			(at 61.976 169.418 0)
+			(at 159.766 236.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +6728,7 @@
 			)
 		)
 		(property "Value" "TLV9302IDR"
-			(at 65.786 171.196 0)
+			(at 163.576 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +6736,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 66.04 167.64 0)
+			(at 163.83 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +6745,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9301"
-			(at 66.04 186.69 0)
+			(at 163.83 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +6754,7 @@
 			)
 		)
 		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
-			(at 66.04 177.8 0)
+			(at 163.83 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +6763,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV9302IDR/10270189"
-			(at 66.04 177.8 0)
+			(at 163.83 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,16 +6805,81 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 92.71 0)
+		(lib_id "power:GND")
+		(at 189.23 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58d9adfa-6930-48c4-b089-b3ac1be72a55")
-		(property "Reference" "R3"
-			(at 127.254 90.424 0)
+		(uuid "41106f37-38fe-4901-b403-7c0d9f8c64b1")
+		(property "Reference" "#PWR014"
+			(at 189.23 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0befedc5-b9c3-4841-a57b-9f3934f70b36")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at -27.94 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4864f88a-b45e-43da-affa-3c0c843d376c")
+		(property "Reference" "R15"
+			(at -26.416 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,8 +6887,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k (TnF)"
-			(at 127.254 92.2021 0)
+		(property "Value" "20k (TnF)"
+			(at -26.416 174.7521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +6897,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 126.746 92.964 90)
+			(at -26.924 175.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +6906,502 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
-			(at 125.73 92.71 0)
+			(at -27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at -27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C2002FP500/1850447"
+			(at -27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R03"
+			(at -23.876 177.0381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fb2fe8a-674f-4c77-8c51-9411496c66e7")
+		)
+		(pin "2"
+			(uuid "f10862d8-6286-42e7-bac3-d097f351bcf7")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 288.29 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf426c8-5a82-495a-a298-7bdfdfd7f082")
+		(property "Reference" "R17"
+			(at 289.814 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k (TnF)"
+			(at 289.814 97.2821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 289.306 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C2002FP500/1850447"
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R03"
+			(at 292.354 99.5681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb550a76-5091-4044-90a8-8a1a384f221a")
+		)
+		(pin "2"
+			(uuid "b1df49ea-d753-436e-919d-fe6d100a91f0")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd871f7-f7c6-467f-881c-084793ceb10a")
+		(property "Reference" "C20"
+			(at 237.49 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 237.744 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 235.9152 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 240.284 79.5021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8129fd92-dcdd-43d2-a121-62cce0982795")
+		)
+		(pin "1"
+			(uuid "be9ffc10-05bc-4cf1-b50c-898da29e5224")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 151.13 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f30c5e4-11d2-4f44-b10a-55224aaf1a49")
+		(property "Reference" "R23"
+			(at 145.542 112.7759 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R (TnF)"
+			(at 145.542 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.384 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C1000FP500/2607820"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R09"
+			(at 148.082 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0892f27-fd31-4c53-bf4b-e20f0ba059fb")
+		)
+		(pin "2"
+			(uuid "239c6268-c6d2-418e-90f8-22bd9319e131")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fe73bad-f293-4047-9059-d67a869ec66a")
+		(property "Reference" "#PWR018"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a394674-72a2-4132-bf5c-db9ad28f5719")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5526f12a-2ddc-4ffa-bd7a-457d462343e8")
+		(property "Reference" "R21"
+			(at 166.624 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k (TnF)"
+			(at 166.624 33.7821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.116 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C6802FP500/2607864"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R07"
+			(at 169.164 36.0681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4756a3c-12c3-4005-93b6-40e39b71180c")
+		)
+		(pin "2"
+			(uuid "608c0d8b-b70a-471d-9042-e925fc418290")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 287.02 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58d9adfa-6930-48c4-b089-b3ac1be72a55")
+		(property "Reference" "R3"
+			(at 288.544 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k (TnF)"
+			(at 288.544 65.5321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 288.036 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 287.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +7410,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 125.73 92.71 0)
+			(at 287.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +7419,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C1002FP500/1850440"
-			(at 125.73 92.71 0)
+			(at 287.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +7428,7 @@
 			)
 		)
 		(property "CPN" "#R02"
-			(at 129.794 94.4881 0)
+			(at 291.084 67.8181 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +7452,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 55.88 0)
+		(at 105.41 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3865,7 +7460,7 @@
 		(dnp no)
 		(uuid "59772cc7-d97a-494a-ad4b-2094775bc6f3")
 		(property "Reference" "C1"
-			(at 52.07 53.848 0)
+			(at 107.95 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +7469,7 @@
 			)
 		)
 		(property "Value" "1u (X7R)"
-			(at 52.07 55.88 0)
+			(at 107.95 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +7478,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 50.4952 59.69 0)
+			(at 106.3752 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +7487,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B105KO8NNN.do"
-			(at 49.53 55.88 0)
+			(at 105.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +7496,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 49.53 55.88 0)
+			(at 105.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +7505,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
-			(at 49.53 55.88 0)
+			(at 105.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +7514,7 @@
 			)
 		)
 		(property "CPN" "#C05 "
-			(at 55.372 58.166 0)
+			(at 111.252 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,15 +7538,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 190.5 0)
+		(at 227.33 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6f5257f6-42aa-4c7a-abd6-35d653032ff4")
-		(property "Reference" "#PWR05"
-			(at 29.21 196.85 0)
+		(uuid "5a6b65c0-124f-41ab-a7e4-02f3f02367d3")
+		(property "Reference" "#PWR016"
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +7555,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 194.31 0)
+			(at 227.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 190.5 0)
+			(at 227.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +7572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 190.5 0)
+			(at 227.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +7581,712 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 190.5 0)
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c62b6d1-bf83-404b-a8d2-1337beb5dd37")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b60ad76-c7f4-40fb-91a8-fa8936abc20f")
+		(property "Reference" "R11"
+			(at 33.274 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "28k (TnF)"
+			(at 33.274 133.0961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 32.766 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "28 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030D2802BP500/462794"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766b6334-c4de-478f-9841-47431e1eae32")
+		)
+		(pin "2"
+			(uuid "1d9ad7d8-bc6e-4511-8bb9-9b4be580c568")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c42d58d-7e3d-4de9-a8ec-90456e8db551")
+		(property "Reference" "C9"
+			(at 213.36 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n (X7R)"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 211.7852 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNW.do"
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
+			(at 210.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C02"
+			(at 215.9 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "563ce5d0-117e-45ee-992a-baead6f05ce5")
+		)
+		(pin "2"
+			(uuid "bed3f2f4-814f-4b05-a4b8-3ee07bcb0a3c")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cb0e53f-780d-48dd-b039-c7a19b75c372")
+		(property "Reference" "C4"
+			(at 72.39 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n (X7R)"
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 70.8152 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNW.do"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
+			(at 69.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C02"
+			(at 74.93 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90e7b65a-337a-4127-941a-581775e79266")
+		)
+		(pin "2"
+			(uuid "0a0583cc-0bad-4fa3-8192-a6d5b80395fc")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "614165fa-ba58-46a5-83d5-47f267abd038")
+		(property "Reference" "#PWR013"
+			(at 173.99 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7359aea-f1cf-4c89-86c4-a8b48af2ccc6")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62ce3417-d29d-4419-9f0b-fea8862c6a05")
+		(property "Reference" "C8"
+			(at 129.54 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n (C0G)"
+			(at 129.54 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 142.5448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H103JA01-01.pdf"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01J/4905215"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C03"
+			(at 132.334 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4b93eda-b0bb-42f3-9f9a-7a94b3607a1d")
+		)
+		(pin "2"
+			(uuid "00a23fb0-60e0-4dab-aac1-a8904b5e2b03")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a3cbfd8-f940-42ca-b491-c96e2ad022fd")
+		(property "Reference" "#PWR015"
+			(at 299.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.72 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a34f3b2-0ce5-4df0-a29d-015c4bfb8a82")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 53.34 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a7410f4-c161-4890-a050-bdf92dda08f3")
+		(property "Reference" "R9"
+			(at 54.864 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k (TnF)"
+			(at 54.864 127.7621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 54.356 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C1003FP500/2607822"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R06"
+			(at 57.404 130.0481 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1dbfd54-f5e7-42f9-b4af-855eedece8e9")
+		)
+		(pin "2"
+			(uuid "7f290882-6c82-4d41-86e4-b0aa8ea0efe1")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c55f049-f90f-48aa-8f5c-ed5dbd4f0738")
+		(property "Reference" "C17"
+			(at 216.154 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 218.44 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 216.8652 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 221.234 79.5021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ab1546c-f11a-4333-8b84-df504ee4c282")
+		)
+		(pin "1"
+			(uuid "8088cb6c-36e2-4984-8b2b-f65a2ea08e87")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f5257f6-42aa-4c7a-abd6-35d653032ff4")
+		(property "Reference" "#PWR05"
+			(at 127 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +8308,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:LMR33640DDDA")
-		(at 66.04 44.45 0)
+		(at 121.92 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4016,7 +8316,7 @@
 		(dnp no)
 		(uuid "73a9a9e4-6d54-44cb-8293-2120ee18fa68")
 		(property "Reference" "U1"
-			(at 59.436 33.528 0)
+			(at 115.316 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +8324,7 @@
 			)
 		)
 		(property "Value" "LMR33640ADDAR"
-			(at 66.04 35.306 0)
+			(at 121.92 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +8332,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
-			(at 66.04 64.77 0)
+			(at 121.92 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +8341,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmr33640"
-			(at 66.04 46.99 0)
+			(at 121.92 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +8350,7 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage, HSOP-8"
-			(at 66.04 44.45 0)
+			(at 121.92 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +8359,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/LMR33640ADDAR/11308782"
-			(at 66.04 44.45 0)
+			(at 121.92 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,8 +8404,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 179.07 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "76341dd6-fb40-4b51-b543-7982e669ee17")
+		(property "Reference" "C10"
+			(at 181.61 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 181.61 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.0352 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b3743ba-9c12-4069-92d1-053242761121")
+		)
+		(pin "2"
+			(uuid "c9c481c0-6e29-4d6d-8db2-a0dd459c7e73")
+		)
+		(instances
+			(project ""
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 299.72 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "769ef304-7137-4b9c-ac34-c1ebc677c34e")
+		(property "Reference" "R18"
+			(at 301.244 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k (TnF)"
+			(at 301.244 21.0821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 300.736 21.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 299.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 299.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C2002FP500/1850447"
+			(at 299.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R03"
+			(at 303.784 23.3681 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10f3412f-9059-4689-8431-c6f9bdce9228")
+		)
+		(pin "2"
+			(uuid "ee11228f-d0c4-47e0-b7e0-f0c651ee1abc")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 66.04 55.88 0)
+		(at 121.92 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4113,7 +8568,7 @@
 		(dnp no)
 		(uuid "78a39f13-ddfa-488b-ba59-71150334c11c")
 		(property "Reference" "#PWR01"
-			(at 66.04 62.23 0)
+			(at 121.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +8577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 59.944 0)
+			(at 121.92 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +8585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 55.88 0)
+			(at 121.92 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +8594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 55.88 0)
+			(at 121.92 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +8603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 55.88 0)
+			(at 121.92 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,8 +8624,240 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAV99")
+		(at 173.99 256.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a13134c-9657-4ddf-8e67-8b6c5b493a01")
+		(property "Reference" "D1"
+			(at 175.514 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV199Q-7-F"
+			(at 175.514 257.3021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 161.29 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30232.pdf"
+			(at 173.99 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Array 1 Pair Series Connection 85 V 140mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3"
+			(at 173.99 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAV199Q-7-F/6006038"
+			(at 173.99 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6202c242-2e6d-4a02-a767-b0603651d871")
+		)
+		(pin "2"
+			(uuid "d7eec93d-e116-47e3-8dde-f4f5851a492a")
+		)
+		(pin "3"
+			(uuid "7e4ed74c-c080-4e3d-90db-9d35a05f5bef")
+		)
+		(instances
+			(project ""
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 173.99 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81722340-5a5e-4871-a0d5-7e7b3a67415d")
+		(property "Reference" "R16"
+			(at 175.26 268.2239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k (TnF)"
+			(at 175.26 270.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 175.006 270.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 173.99 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 173.99 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C2003FP500/2607837"
+			(at 173.99 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R05"
+			(at 177.8 272.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18111f81-e666-4b57-b13b-0fc4cb2e74fd")
+		)
+		(pin "2"
+			(uuid "aa80a86f-a407-427e-bf74-1c016a21540a")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 137.16 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "830d8f03-158a-4cd3-a920-abb34f6e1463")
+		(property "Reference" "#PWR012"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+Vin"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0621ef82-e799-49a6-aa02-2498649aa935")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Reference_Voltage:LM4040DBZ-2.5")
-		(at 31.75 97.79 90)
+		(at 78.74 262.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4178,7 +8865,7 @@
 		(dnp no)
 		(uuid "835dffe8-532f-441e-87f4-f1ac5815cfde")
 		(property "Reference" "U2"
-			(at 34.798 97.028 90)
+			(at 81.788 262.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +8873,7 @@
 			)
 		)
 		(property "Value" "LM4040-2.5"
-			(at 39.624 98.806 90)
+			(at 86.614 263.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +8881,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 36.83 97.79 0)
+			(at 83.82 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +8891,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm4040-n.pdf?ts=1752678691365&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM4040-N%252Fpart-details%252FLM4040BIM3-3.0%252FNOPB"
-			(at 31.75 97.79 0)
+			(at 78.74 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +8901,7 @@
 			)
 		)
 		(property "Description" "Shunt Voltage Reference IC Fixed 2.5V V ±2% 15 mA SOT-23-3"
-			(at 31.75 97.79 0)
+			(at 78.74 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +8910,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/LM4040EIM3-2-5-NOPB/305142"
-			(at 31.75 97.79 0)
+			(at 78.74 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,8 +9028,182 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88461a2b-bb6c-4d0c-a129-4dbcf7259344")
+		(property "Reference" "C19"
+			(at 229.108 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 231.14 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 229.5652 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 228.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 228.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 228.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 233.934 79.5021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5787114-edc6-4704-93d8-02323aebced8")
+		)
+		(pin "1"
+			(uuid "51f45547-98c6-4059-852b-aefa79443bf1")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "886424db-18b0-4a2b-867f-00648cde3dee")
+		(property "Reference" "R22"
+			(at 131.572 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M (TnF)"
+			(at 131.572 150.3681 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.144 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 135.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 135.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C1004FP500/2607823"
+			(at 135.89 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R08"
+			(at 134.112 152.6541 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cad4075a-4132-439e-b3ac-6afd82205a27")
+		)
+		(pin "2"
+			(uuid "45bc682c-62f0-463b-bd9e-6aa8aaf094b3")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 31.75 102.87 0)
+		(at 78.74 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4350,7 +9211,7 @@
 		(dnp no)
 		(uuid "8b9244bd-6f04-4068-87c0-f7d31473e3d1")
 		(property "Reference" "#PWR03"
-			(at 31.75 109.22 0)
+			(at 78.74 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +9220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 106.934 0)
+			(at 78.74 272.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +9228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 102.87 0)
+			(at 78.74 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +9237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 102.87 0)
+			(at 78.74 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +9246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 102.87 0)
+			(at 78.74 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,15 +9268,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 31.75 87.63 0)
+		(at -55.88 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8d961fca-81a3-4923-a386-94dbafa911a7")
 		(property "Reference" "R5"
-			(at 33.274 85.344 0)
+			(at -54.356 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +9285,7 @@
 			)
 		)
 		(property "Value" "60.4k (TnF)"
-			(at 33.274 87.1221 0)
+			(at -54.356 137.9221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +9294,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 32.766 87.884 90)
+			(at -54.864 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +9303,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
-			(at 31.75 87.63 0)
+			(at -55.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +9312,7 @@
 			)
 		)
 		(property "Description" "60.4 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 31.75 87.63 0)
+			(at -55.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,20 +9321,12 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030D6042BP500/462834"
-			(at 31.75 87.63 0)
+			(at -55.88 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "CPN" "#R04"
-			(at 35.814 89.4081 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -4493,7 +9346,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9302xD")
-		(at 163.83 118.11 0)
+		(at 134.62 119.38 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4502,7 +9355,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b882a5-4497-465d-900e-48423ec497a5")
 		(property "Reference" "U3"
-			(at 162.56 116.8399 0)
+			(at 133.35 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +9365,7 @@
 			)
 		)
 		(property "Value" "TLV9302IDR"
-			(at 162.56 119.3799 0)
+			(at 133.35 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +9375,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 163.83 107.95 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +9384,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9301"
-			(at 163.83 127 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +9393,7 @@
 			)
 		)
 		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
-			(at 163.83 118.11 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +9402,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV9302IDR/10270189"
-			(at 163.83 118.11 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,28 +9411,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "c45eb26d-521b-4a53-8e74-4f2cab819683")
+			(uuid "c45eb26d-521b-4a53-8e74-4f2cab819684")
 		)
 		(pin "3"
-			(uuid "d557ca3b-6525-4c08-9bf7-b6a0fe17e767")
+			(uuid "d557ca3b-6525-4c08-9bf7-b6a0fe17e768")
 		)
 		(pin "1"
-			(uuid "6f01065a-22fd-4956-bc97-991089063130")
+			(uuid "6f01065a-22fd-4956-bc97-991089063131")
 		)
 		(pin "4"
-			(uuid "c8438e77-67f6-49ab-9a68-7509773aae67")
+			(uuid "c8438e77-67f6-49ab-9a68-7509773aae68")
 		)
 		(pin "7"
-			(uuid "df46dd28-5174-4bd2-8682-5174a6f71c02")
+			(uuid "df46dd28-5174-4bd2-8682-5174a6f71c03")
 		)
 		(pin "2"
-			(uuid "bfee8a5a-eea0-41ec-9516-a21a5d6b7e62")
+			(uuid "bfee8a5a-eea0-41ec-9516-a21a5d6b7e63")
 		)
 		(pin "8"
-			(uuid "922f12c6-361c-4daf-b6c1-4b16763f9f3a")
+			(uuid "922f12c6-361c-4daf-b6c1-4b16763f9f3b")
 		)
 		(pin "6"
-			(uuid "efb535d5-1b32-4199-838e-f67311aed5b1")
+			(uuid "efb535d5-1b32-4199-838e-f67311aed5b2")
 		)
 		(instances
 			(project ""
@@ -4592,7 +9445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 60.96 0)
+		(at 105.41 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4600,7 +9453,7 @@
 		(dnp no)
 		(uuid "9875b5d8-ccac-4eb4-992f-629dff14409f")
 		(property "Reference" "#PWR02"
-			(at 49.53 67.31 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +9462,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 65.024 0)
+			(at 105.41 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +9470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 60.96 0)
+			(at 105.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +9479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 60.96 0)
+			(at 105.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +9488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 60.96 0)
+			(at 105.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,15 +9510,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 29.21 185.42 0)
+		(at 78.74 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a1baa07e-3b9f-4ec8-a319-9eca5f6ed65f")
-		(property "Reference" "R7"
-			(at 30.734 183.134 0)
+		(uuid "992b5d34-430c-4bde-a769-d17ace214f29")
+		(property "Reference" "R13"
+			(at 80.264 250.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,8 +9526,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k (TnF)"
-			(at 30.734 184.9121 0)
+		(property "Value" "20k (TnF)"
+			(at 80.264 252.2221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +9536,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 30.226 185.674 90)
+			(at 79.756 252.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +9545,177 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
-			(at 29.21 185.42 0)
+			(at 78.74 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 78.74 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C2002FP500/1850447"
+			(at 78.74 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R03"
+			(at 82.804 254.5081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e912ac9-a6d4-4b02-bb3b-b8170b8c7ec6")
+		)
+		(pin "2"
+			(uuid "07d3fe31-c832-4609-9458-786514b6686e")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 50.8 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c45e470-4df0-4743-bfcb-25a92edb212d")
+		(property "Reference" "Q1"
+			(at 55.626 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904-7-F"
+			(at 55.626 117.8559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 55.88 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MMBT3904.pdf"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar (BJT) Transistor NPN 40 V 200 mA 300MHz 300 mW Surface Mount SOT-23-3"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3904-7-F/814494"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c930f1cc-d72f-4e59-a40c-cea88f058a4d")
+		)
+		(pin "3"
+			(uuid "3061a26b-a4e0-4ae7-b54d-00b7ccb26bb9")
+		)
+		(pin "1"
+			(uuid "623f1afb-95f6-44ac-9354-418c3f6646e6")
+		)
+		(instances
+			(project ""
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 127 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1baa07e-3b9f-4ec8-a319-9eca5f6ed65f")
+		(property "Reference" "R7"
+			(at 128.524 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k (TnF)"
+			(at 128.524 252.2221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.016 252.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 127 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +9724,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
-			(at 29.21 185.42 0)
+			(at 127 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +9733,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C1001FP500/2607821"
-			(at 29.21 185.42 0)
+			(at 127 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +9742,7 @@
 			)
 		)
 		(property "CPN" "#R01"
-			(at 33.274 187.1981 0)
+			(at 131.064 254.5081 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,8 +9765,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 53.34 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af7d26c2-7c26-413e-a7be-b06ca73bf511")
+		(property "Reference" "#PWR07"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "871a3014-4de6-4f49-a6c2-aeffdbab7fc3")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7ee70ca-ca26-4b2f-ac96-339d6e50f260")
+		(property "Reference" "#PWR020"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b6171eb-7208-4a8f-ab46-f7fdf92fab36")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 86.36 38.1 90)
+		(at 142.24 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4751,7 +9904,7 @@
 		(dnp no)
 		(uuid "be339396-4f60-44a3-870f-2d69dd74b3b9")
 		(property "Reference" "C2"
-			(at 81.026 29.972 90)
+			(at 136.906 16.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,7 +9913,7 @@
 			)
 		)
 		(property "Value" "100n (X7R)"
-			(at 81.026 32.004 90)
+			(at 136.906 18.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +9922,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 90.17 37.1348 0)
+			(at 146.05 23.1648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +9931,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNW.do"
-			(at 86.36 38.1 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +9940,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 86.36 38.1 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +9949,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
-			(at 86.36 38.1 0)
+			(at 142.24 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +9958,7 @@
 			)
 		)
 		(property "CPN" "#C02"
-			(at 83.566 34.29 90)
+			(at 139.446 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,8 +9981,184 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 209.55 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beb66ddc-5659-416f-8aa9-fd349b25b9f2")
+		(property "Reference" "C16"
+			(at 209.804 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 212.09 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 210.5152 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 214.884 79.5021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77d32927-8fa4-41fe-975d-3da00be02579")
+		)
+		(pin "1"
+			(uuid "ac7ff8bc-b1b0-4f4c-8cad-d96ef6951b50")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfbb1f39-b50d-4e95-8889-6461d683c6e2")
+		(property "Reference" "C18"
+			(at 222.504 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 224.79 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 223.2152 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 227.584 79.5021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1177a6d-415d-45be-9445-a879810efbf9")
+		)
+		(pin "1"
+			(uuid "18f7a11d-7b51-482b-8204-00284b70870b")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TLV9302xD")
-		(at 163.83 118.11 0)
+		(at 134.62 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4837,7 +10166,7 @@
 		(dnp no)
 		(uuid "c10b1791-da2e-418e-8f66-451985dc786e")
 		(property "Reference" "U3"
-			(at 164.338 111.506 0)
+			(at 121.158 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +10174,7 @@
 			)
 		)
 		(property "Value" "TLV9302IDR"
-			(at 168.148 113.284 0)
+			(at 124.968 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +10182,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 163.83 107.95 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +10191,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv9301"
-			(at 163.83 127 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +10200,7 @@
 			)
 		)
 		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
-			(at 163.83 118.11 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +10209,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TLV9302IDR/10270189"
-			(at 163.83 118.11 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,28 +10218,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "c45eb26d-521b-4a53-8e74-4f2cab819683")
+			(uuid "c45eb26d-521b-4a53-8e74-4f2cab819685")
 		)
 		(pin "3"
-			(uuid "d557ca3b-6525-4c08-9bf7-b6a0fe17e767")
+			(uuid "d557ca3b-6525-4c08-9bf7-b6a0fe17e769")
 		)
 		(pin "1"
-			(uuid "6f01065a-22fd-4956-bc97-991089063130")
+			(uuid "6f01065a-22fd-4956-bc97-991089063132")
 		)
 		(pin "4"
-			(uuid "c8438e77-67f6-49ab-9a68-7509773aae67")
+			(uuid "c8438e77-67f6-49ab-9a68-7509773aae69")
 		)
 		(pin "7"
-			(uuid "df46dd28-5174-4bd2-8682-5174a6f71c02")
+			(uuid "df46dd28-5174-4bd2-8682-5174a6f71c04")
 		)
 		(pin "2"
-			(uuid "bfee8a5a-eea0-41ec-9516-a21a5d6b7e62")
+			(uuid "bfee8a5a-eea0-41ec-9516-a21a5d6b7e64")
 		)
 		(pin "8"
-			(uuid "922f12c6-361c-4daf-b6c1-4b16763f9f3a")
+			(uuid "922f12c6-361c-4daf-b6c1-4b16763f9f3c")
 		)
 		(pin "6"
-			(uuid "efb535d5-1b32-4199-838e-f67311aed5b1")
+			(uuid "efb535d5-1b32-4199-838e-f67311aed5b3")
 		)
 		(instances
 			(project ""
@@ -4922,16 +10251,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 31.75 82.55 0)
+		(lib_id "Device:R_US")
+		(at 201.93 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7ade6ce-b32e-43c1-a676-9f29e4af05a8")
-		(property "Reference" "#PWR04"
-			(at 31.75 86.36 0)
+		(uuid "c9d00319-a75f-4af2-b404-c1816d1712ce")
+		(property "Reference" "R25"
+			(at 196.85 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "68k (TnF)"
+			(at 196.85 41.4021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 202.184 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,8 +10286,336 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+Vin"
-			(at 31.75 78.74 0)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C6802FP500/2607864"
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R07"
+			(at 199.39 43.6881 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9336ea82-61c9-4f7b-b46e-07e7497999d1")
+		)
+		(pin "2"
+			(uuid "0bc67471-8454-4ef4-8c29-2b45e74920b6")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 292.1 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceb70263-450c-4e54-962e-372fc46eb988")
+		(property "Reference" "R19"
+			(at 293.37 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.02k (TnF)"
+			(at 293.37 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 293.116 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 292.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.02 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 292.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C4021FP500/1850353"
+			(at 292.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R04"
+			(at 295.91 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a83331b2-3472-43d6-8466-7b60b4b00731")
+		)
+		(pin "2"
+			(uuid "d05b4c7a-e034-4291-bcac-732464f07640")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfcafacf-35ed-4e77-9b88-b2128b2103b0")
+		(property "Reference" "C6"
+			(at 191.77 268.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n (X7R)"
+			(at 191.77 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 190.1952 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNW.do"
+			(at 189.23 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 189.23 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
+			(at 189.23 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C02"
+			(at 194.31 272.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc6d3d11-4073-4f7b-8a14-5a1ecd0e4843")
+		)
+		(pin "2"
+			(uuid "68cb3796-8d3c-44e5-9f64-d2b4486b51cc")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d7d59e-fa4e-41ca-81b1-c5610d466ad7")
+		(property "Reference" "C12"
+			(at 216.154 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 218.44 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 216.8652 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 215.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 215.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 215.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 221.234 62.9921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04424d99-bf4f-4b7b-b1be-a890d1e9cd5e")
+		)
+		(pin "1"
+			(uuid "f9770da2-9828-42fe-a9d6-4a889ea27329")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d18afaa8-b508-4c08-9fe5-a2300df7e89c")
+		(property "Reference" "#PWR08"
+			(at 31.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +10623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 82.55 0)
+			(at 31.75 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +10632,158 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 82.55 0)
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28d3db9c-e6d9-438a-9f79-7bbbf933becf")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 299.72 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3edc249-e552-48dc-912f-c4bdf427a8c4")
+		(property "Reference" "C7"
+			(at 302.26 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n (C0G)"
+			(at 302.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 300.6852 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H102JA01-01.pdf"
+			(at 299.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 299.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H102JA01D/586943"
+			(at 299.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C07"
+			(at 305.054 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88b6e7b5-be6a-4d4c-b5cc-f451f849c567")
+		)
+		(pin "2"
+			(uuid "d9786933-60a0-4f0d-9330-fb52653f54cb")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 78.74 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7ade6ce-b32e-43c1-a676-9f29e4af05a8")
+		(property "Reference" "#PWR04"
+			(at 78.74 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+Vin"
+			(at 78.74 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +10792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 31.75 82.55 0)
+			(at 78.74 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +10814,95 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 185.42 0)
+		(at 209.55 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc440a91-0a68-4282-b9bb-0ee1b2cf4018")
+		(property "Reference" "C11"
+			(at 209.804 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 212.09 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 210.5152 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 214.884 62.9921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c491c35-3ecc-4425-99f2-8e6149548bc3")
+		)
+		(pin "1"
+			(uuid "18d4bff1-2643-4d73-9956-23d91a309638")
+		)
+		(instances
+			(project ""
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4996,7 +10910,7 @@
 		(dnp no)
 		(uuid "df6ba77b-0a3b-4553-a8f5-7e1ec8876f2b")
 		(property "Reference" "C3"
-			(at 46.99 183.388 0)
+			(at 144.78 250.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +10919,7 @@
 			)
 		)
 		(property "Value" "1n (C0G)"
-			(at 46.99 185.42 0)
+			(at 144.78 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +10928,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.4152 189.23 0)
+			(at 143.2052 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +10937,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H102JA01-01.pdf"
-			(at 44.45 185.42 0)
+			(at 142.24 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +10946,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 44.45 185.42 0)
+			(at 142.24 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +10955,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H102JA01D/586943"
-			(at 44.45 185.42 0)
+			(at 142.24 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +10964,7 @@
 			)
 		)
 		(property "CPN" "#C07"
-			(at 49.784 187.706 0)
+			(at 147.574 255.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +10988,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 190.5 0)
+		(at 142.24 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5082,7 +10996,7 @@
 		(dnp no)
 		(uuid "e2213dd5-8b2d-4fa4-9d96-d46cb7491b8e")
 		(property "Reference" "#PWR06"
-			(at 44.45 196.85 0)
+			(at 142.24 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +11005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 194.31 0)
+			(at 142.24 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +11013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 190.5 0)
+			(at 142.24 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +11022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 190.5 0)
+			(at 142.24 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +11031,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 190.5 0)
+			(at 142.24 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,8 +11052,429 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 181.61 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e947c191-922b-41e6-8a4b-5c4ff739fa2a")
+		(property "Reference" "Q2"
+			(at 182.88 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904-7-F"
+			(at 195.834 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 176.53 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MMBT3904.pdf"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar (BJT) Transistor NPN 40 V 200 mA 300MHz 300 mW Surface Mount SOT-23-3"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/MMBT3904-7-F/814494"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4edf879d-6f83-4e12-8ac8-ee3655019ed0")
+		)
+		(pin "3"
+			(uuid "26126cc8-33f9-4a43-9b1c-7864b17f6384")
+		)
+		(pin "1"
+			(uuid "bc101fae-9050-4ef5-8648-f2f8e9a07dce")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea41c543-3b70-4351-91ac-8bc00eab3894")
+		(property "Reference" "C15"
+			(at 237.49 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u (X7R)"
+			(at 237.744 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 235.9152 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)"
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C09"
+			(at 240.284 62.9921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e33e6723-0cc7-45b7-9f53-1eff2ec351bb")
+		)
+		(pin "1"
+			(uuid "d94894fc-6704-41d2-a8fb-41e68187cc7a")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at -25.4 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eabc668e-6ba6-4f80-b9cd-7edc519ee79f")
+		(property "Reference" "D6"
+			(at -23.622 186.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT54-7-F"
+			(at -23.622 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at -19.05 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAT54_A_C_S.pdf"
+			(at -19.05 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 30 V 200mA Surface Mount SOT-23-3"
+			(at -19.05 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/BAT54-7-F/717699"
+			(at -25.4 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d46559e-7189-44e1-ad20-d523ec598440")
+		)
+		(pin "1"
+			(uuid "d11e888f-8d4c-42da-8485-aad7dac69586")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef677b6a-7887-4740-aa12-c78825f4342f")
+		(property "Reference" "C5"
+			(at 139.7 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n (X7R)"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.1252 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B104KB8NNW.do"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#C02"
+			(at 142.24 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "637d01de-9c17-4399-b383-1c016743c54f")
+		)
+		(pin "2"
+			(uuid "fa87eba3-07fe-46c1-bb12-93ebe905e266")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 57.15 0)
+		(at 38.1 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25016e8-e7fe-4572-9921-c177446accde")
+		(property "Reference" "R12"
+			(at 39.37 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.02k (TnF)"
+			(at 39.37 121.9201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.116 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.02 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C4021FP500/1850353"
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R04"
+			(at 41.91 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e9dd57c-e5c4-4be1-907d-59a69fbb0cab")
+		)
+		(pin "2"
+			(uuid "0af4a3ba-7ea3-4803-a9f1-cbe74b722eda")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 227.33 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5147,7 +11482,7 @@
 		(dnp no)
 		(uuid "f2505ac1-1099-4e22-bbeb-c2d3a3cc5f4a")
 		(property "Reference" "R1"
-			(at 195.58 56.388 0)
+			(at 228.6 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +11491,7 @@
 			)
 		)
 		(property "Value" "0.1R (TkF)"
-			(at 195.58 58.42 0)
+			(at 228.6 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +11500,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 195.326 57.404 90)
+			(at 228.346 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +11509,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
-			(at 194.31 57.15 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +11518,7 @@
 			)
 		)
 		(property "Description" "100 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
-			(at 194.31 57.15 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +11527,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/RCWE1206R100FKEA/5773574"
-			(at 194.31 57.15 0)
+			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +11552,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 102.87 41.91 90)
+		(at 158.75 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5225,7 +11560,7 @@
 		(dnp no)
 		(uuid "f55990ea-4035-42bc-84e1-ac9077336ea7")
 		(property "Reference" "L1"
-			(at 96.52 37.338 90)
+			(at 152.4 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +11568,7 @@
 			)
 		)
 		(property "Value" "10u (Powdered)"
-			(at 103.124 39.37 90)
+			(at 159.004 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +11576,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-4040"
-			(at 102.87 41.91 0)
+			(at 158.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +11585,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/34192/lp40dz11.pdf"
-			(at 102.87 41.91 0)
+			(at 158.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +11594,7 @@
 			)
 		)
 		(property "Description" "10 µH Shielded Molded Inductor 7.5 A 30.5mOhm Max Nonstandard"
-			(at 102.87 41.91 0)
+			(at 158.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +11603,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/IHLP4040DZER100M11/1220709"
-			(at 102.87 41.91 0)
+			(at 158.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,6 +11621,243 @@
 			(project ""
 				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 179.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f56b6f72-adef-43e0-b81d-82e81e7b0510")
+		(property "Reference" "R24"
+			(at 180.34 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.02k (TnF)"
+			(at 180.34 55.8801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.086 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.02 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C4021FP500/1850353"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R04"
+			(at 182.88 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e67fae1-893d-49e1-b681-03cc03c66302")
+		)
+		(pin "2"
+			(uuid "8e2091c3-1a16-4f50-a5c5-94d504963bae")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f669b697-4d35-4ab9-9466-281a496faad1")
+		(property "Reference" "R10"
+			(at 33.274 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k (TnF)"
+			(at 33.274 106.1721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 32.766 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay/MCT06030C6802FP500/2607864"
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "#R07"
+			(at 35.814 108.4581 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12470469-b878-4069-9bf2-1d41c698d003")
+		)
+		(pin "2"
+			(uuid "ab0a73f3-fa90-408b-ad99-9ddfe062a4ea")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6e010d9-3c99-45ee-b0d0-74c7e73dbde8")
+		(property "Reference" "#PWR09"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b3f77a-1422-4e7f-9557-25696345e328")
+		)
+		(instances
+			(project "cc-led-driver"
+				(path "/6c6605c9-2b9a-4fed-8d75-2a02c2ded1b0"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

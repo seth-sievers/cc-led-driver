@@ -1,0 +1,15 @@
+* D:\Users\seth\Documents\Git\cc-led-driver\ltspice\inverting_integrator_amp_phase_margin.asc
+XU1 0 Vop- +24V -10V N001 TLV9302
+V1 +24V 0 24
+C1 N001 Vfb 10n
+R1 Vout N001 100
+R2 Vout Vfb 1Meg
+V3 -10V 0 -10
+R3 Vop- 0 10k
+R4 Vout 0 68k
+V2 Vfb Vop- AC 1
+.inc tlv9302.lib
+;tran 0 1 0 100u
+.ac dec 1000 1 10Meg
+.backanno
+.end
