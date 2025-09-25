@@ -1,0 +1,13 @@
+* D:\Users\seth\Documents\Git\cc-led-driver\ltspice\inputFilter.asc
+L1 N002 N001 88.4n Rser=4m Rpar=37 Cpar=1.2p
+C1 N002 0 72.6n Rser=25.1m Lser=381.7p
+C2 N002 0 4.24µ Rser=2.9m Lser=1.1n
+C3 N002 0 4.24µ Rser=2.9m Lser=1.1n
+V1 N001 0 AC 1
+C4 N003 0 4.24µ Rser=2.9m Lser=1.1n
+C5 N003 0 4.24µ Rser=2.9m Lser=1.1n
+R1 N002 N003 100m
+C6 N002 0 72.6n Rser=25.1m Lser=381.7p
+.ac dec 1000 10 10G
+.backanno
+.end
