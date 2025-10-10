@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "20AWG")(type "KiCad")(uri "${KIPRJMOD}/footprints/20AWG.pretty")(options "")(descr ""))
+)

@@ -3,13 +3,12 @@ Circuit: * D:\Users\seth\Documents\Git\cc-led-driver\ltspice\inputFilter.asc
 c1: Increased Cpar to 7.26e-14
 c2: Increased Cpar to 4.24e-12
 c3: Increased Cpar to 4.24e-12
-c4: Increased Cpar to 4.24e-12
-c5: Increased Cpar to 4.24e-12
 c6: Increased Cpar to 7.26e-14
+c4: Increased Cpar to 7.26e-14
 .OP point found by inspection.
 
-Date: Mon Sep 22 22:34:16 2025
-Total elapsed time: 0.034 seconds.
+Date: Fri Oct  3 21:29:04 2025
+Total elapsed time: 0.036 seconds.
 
 tnom = 27
 temp = 27
@@ -19,9 +18,9 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 4
-fillins = 1
+matrix size = 6
+fillins = 0
 solver = Alternate
 Avg thread counts: 16.0/0.0/0.0/1.7
-Matrix Compiler1:       9 opcodes
-Matrix Compiler2:      22 opcodes
+Matrix Compiler1:      13 opcodes
+Matrix Compiler2:      33 opcodes
