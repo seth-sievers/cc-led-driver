@@ -1,0 +1,18 @@
+* D:\Users\seth\Documents\Git\cc-led-driver\ltspice\Draft2.asc
+C1 N002 0 22.32µ Rser=3m Lser=1.2n
+C2 N003 0 919n Rser=10.9m Lser=372p
+C3 N003 0 919n Rser=10.9m Lser=372p
+C4 N003 0 919n Rser=10.9m Lser=372p
+C5 N003 0 919n Rser=10.9m Lser=372p
+C6 N003 0 919n Rser=10.9m Lser=372p
+C7 N003 0 919n Rser=10.9m Lser=372p
+I1 N003 0 AC 1
+C8 N002 0 22.32µ Rser=3m Lser=1.2n
+R1 Z N002 {Rdamp}
+R2 Z N001 20m
+L1 0 N001 20n
+L2 N003 Z 10n
+.ac dec 1000 10 1G
+.step param Rdamp list 1u 10m 20m 30m 40m 50m 100m 200m 1
+.backanno
+.end
